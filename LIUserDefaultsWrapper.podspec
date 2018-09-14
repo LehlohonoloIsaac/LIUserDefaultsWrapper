@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LIUserDefaultsWrapper'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A convenience Cocoapods that makes testing the UserDefaults testable and manageable within your application.'
 
 # This description is used to generate tags and improve search results.

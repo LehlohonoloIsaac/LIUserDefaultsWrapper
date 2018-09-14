@@ -11,6 +11,8 @@ public struct UserDefaultsManager: UserDefaultsManageable {
     
     let userDefaults = UserDefaults.standard
     
+    public init() {}
+    
     public func set(_ value: Any?, forKey defaultName: String) {
         userDefaults.set(value, forKey: defaultName)
     }
