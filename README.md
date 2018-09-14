@@ -22,7 +22,7 @@ pod 'LIUserDefaultsWrapper'
 
 ## Author
 
-lehlohonoloisaac25@gmail.com, lehlohonoloisaac25@gmail.com
+Lehlohonolo Mbele,lehlohonoloisaac25@gmail.com
 
 ## License
 
