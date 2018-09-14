@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LIUserDefaultsWrapper'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LIUserDefaultsWrapper.'
+  s.summary          = 'A convenience Cocoapods that makes testing the UserDefaults testable and manageable within your application.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,16 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'A convenience Cocoapods that makes testing the UserDefaults testable and manageable within your application. The UserDefaults singleton is wrapped inside a UserDefaultsManager that conforms to a UserManageable protocol.'
 
-  s.homepage         = 'https://github.com/lehlohonoloisaac25@gmail.com/LIUserDefaultsWrapper'
+  s.homepage         = 'https://github.com/VaalSquared/LIUserDefaultsWrapper'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lehlohonoloisaac25@gmail.com' => 'lehlohonoloisaac25@gmail.com' }
-  s.source           = { :git => 'https://github.com/lehlohonoloisaac25@gmail.com/LIUserDefaultsWrapper.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/VaalSquared/LIUserDefaultsWrapper.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/LehlohonoloMbe1'
 
   s.ios.deployment_target = '8.0'
 
