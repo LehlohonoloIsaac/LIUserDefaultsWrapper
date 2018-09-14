@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LIUserDefaultsWrapper_Example' do
+  pod 'LIUserDefaultsWrapper', :path => '../'
+
+  target 'LIUserDefaultsWrapper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
