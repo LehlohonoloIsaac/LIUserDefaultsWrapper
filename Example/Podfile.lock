@@ -1,0 +1,16 @@
+PODS:
+  - LIUserDefaultsWrapper (0.1.0)
+
+DEPENDENCIES:
+  - LIUserDefaultsWrapper (from `../`)
+
+EXTERNAL SOURCES:
+  LIUserDefaultsWrapper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LIUserDefaultsWrapper: b3bfb6846f469c88439324e81112f07835595bef
+
+PODFILE CHECKSUM: d0e917a6b15ac68e3997c83171a77eec9abff02d
+
+COCOAPODS: 1.5.3
